@@ -19,4 +19,9 @@ a {
   width: 100%;
   height: 100vh;
   z-index: -1;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
