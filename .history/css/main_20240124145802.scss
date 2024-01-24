@@ -209,18 +209,5 @@ section.hero    {
             width: 25em;
         }
     }
-
-    .feature.left{
-        grid-template-areas: "left right";
-
-        img{
-            grid-area: left;
-        }
-
-        .content{
-            text-align: left;
-            width: 25em;
-            justify-self: left;
-        }
-    }
+    
 }

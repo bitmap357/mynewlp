@@ -203,24 +203,5 @@ section.hero    {
         img{
             width: 25em;
         }
-
-        .content{
-            text-align: right;
-            width: 25em;
-        }
-    }
-
-    .feature.left{
-        grid-template-areas: "left right";
-
-        img{
-            grid-area: left;
-        }
-
-        .content{
-            text-align: left;
-            width: 25em;
-            justify-self: left;
-        }
     }
 }
