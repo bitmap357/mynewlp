@@ -27,11 +27,6 @@ a   {
     font-weight: bold;
 }
 
-nav {
-    display: none;
-}
-
-
 header  {
     display: flex;
     justify-content: space-between;
@@ -39,7 +34,7 @@ header  {
     svg {
         width: 3em;
         margin-top: -.6em;
-        cursor: pointer;
+        
     }
 }
 
@@ -47,3 +42,7 @@ header  {
 
 
 
+
+nav {
+
+}
