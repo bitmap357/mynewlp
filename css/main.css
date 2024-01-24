@@ -24,4 +24,9 @@ a {
 .logo {
   color: white;
   font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
