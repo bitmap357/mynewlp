@@ -183,18 +183,13 @@ section.hero    {
         width: 40%;
         margin-bottom: 8em;
 
-        svg.down-arrow{
+        svg{
             stroke: black;
             position: unset;
 
             path{
-                fill: black;
+                fil
             }
         }
-    }
-
-    .feature{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
     }
 }

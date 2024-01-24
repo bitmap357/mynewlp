@@ -156,5 +156,17 @@ section.hero svg path {
     color: black;
     height: auto;
     width: 40%;
+    margin-bottom: 8em;
+  }
+  section.hero svg.down-arrow {
+    stroke: black;
+    position: unset;
+  }
+  section.hero svg.down-arrow path {
+    fill: black;
+  }
+  .feature {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
   }
 }/*# sourceMappingURL=main.css.map */
