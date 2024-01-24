@@ -36,6 +36,17 @@ nav {
   z-index: 999;
   text-transform: uppercase;
 }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 8em;
+}
+nav ul a {
+  color: black;
+  padding: 0.75em 2em;
+  display: block;
+  width: 100%;
+}
 
 header {
   display: flex;
