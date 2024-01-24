@@ -250,9 +250,9 @@ section.hero    {
 
 @keyframes moveArrow {
     from{
-        transform: translateY(-30px);
+        transform: ;
     }
     to{
-        transform: translateY(0); 
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 }

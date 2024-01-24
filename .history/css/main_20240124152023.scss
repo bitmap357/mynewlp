@@ -94,7 +94,7 @@ section.hero    {
         position: absolute;
         bottom: 2em;
         width: 1em;
-        animation: moveArrow 1s alternate-reverse infinite;
+        animation: moveArrow 1s alternate-reverse infinite ;
 
         path {
             fill: white;
@@ -248,11 +248,3 @@ section.hero    {
     }
 }
 
-@keyframes moveArrow {
-    from{
-        transform: translateY(-30px);
-    }
-    to{
-        transform: translateY(0); 
-    }
-}
