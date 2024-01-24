@@ -150,16 +150,7 @@ section.hero    {
             display: flex;
             margin: 0;
 
-            a{
-                color: white;
-                padding: .5em 1.5em;
-                font-size: .9rem;
-
-                &:hover{
-                    background: none;
-                    text-decoration: underline;
-                }
-            }
+            a
         }
     }
 }

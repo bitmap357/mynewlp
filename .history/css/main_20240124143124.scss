@@ -130,36 +130,6 @@ section.hero    {
 @media only screen and (min-width: 920px) {
     
     .menu   {
-        display: none;
-    }
-
-    nav     {
-        transform: translate(0);
-        position: unset;
-        display: block;
-        width: auto;
-        height: auto;
-        background: none;
-
-
-        svg.close{
-            display: none;
-        }
-
-        ul{
-            display: flex;
-            margin: 0;
-
-            a{
-                color: white;
-                padding: .5em 1.5em;
-                font-size: .9rem;
-
-                &:hover{
-                    background: none;
-                    text-decoration: underline;
-                }
-            }
-        }
+        
     }
 }
