@@ -6,4 +6,11 @@ body {
 a {
   text-decoration: none;
   font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../assets/shoe1.jpg") width;
 }/*# sourceMappingURL=main.css.map */
