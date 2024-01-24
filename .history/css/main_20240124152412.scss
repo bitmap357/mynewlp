@@ -88,8 +88,7 @@ h1  {
 section.hero    {
     color: white;
     height: 90vh;
-    animation: moveDown 1s ease-in-out forwards;
-    opacity: 0;
+    animation: move duration timing-function delay iteration-count direction fill-mode;;
 
     .down-arrow {
         stroke: white;
@@ -256,15 +255,5 @@ section.hero    {
     }
     to{
         transform: translateY(0); 
-    }
-}
-
-@keyframes moveDown {
-    from{
-        transform: translateY(-100px);
-    }
-    to{
-        transform: translateY(0); 
-        opacity: 1;
     }
 }
