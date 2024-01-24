@@ -90,4 +90,11 @@ section.hero svg {
 }
 section.hero svg path {
   fill: white;
+}
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 11em;
 }/*# sourceMappingURL=main.css.map */
