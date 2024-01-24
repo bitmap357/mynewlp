@@ -140,4 +140,21 @@ section.hero svg path {
     background: none;
     text-decoration: underline;
   }
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 42em;
+  }
+  .logo {
+    color: black;
+  }
+  .logo span {
+    color: red;
+  }
+  section.hero {
+    color: black;
+    height: auto;
+    width: 40%;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -160,8 +160,7 @@ section.hero    {
                     text-decoration: underline;
                 }
             }
-        }
-    }
+
     .hero-img{
         left: unset;
         right: 0;
@@ -169,17 +168,13 @@ section.hero    {
         height: 42em;
     }
 
-    .logo{
-        color: black;
+            .logo{
+                color: black;
 
-        span{
-            color: red;
+                span{
+                    color: red;
+                }
+            }
         }
-    }
-
-    section.hero{
-        color: black;
-        height: auto;
-        width: 40%;
     }
 }
